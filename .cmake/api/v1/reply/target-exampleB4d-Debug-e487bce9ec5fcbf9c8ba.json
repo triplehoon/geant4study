@@ -1,0 +1,839 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "exampleB4d"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"find_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/local/lib/Geant4-10.7.1/UseGeant4.cmake",
+			"/usr/local/lib/Geant4-10.7.1/Geant4Config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 274,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -DGL_SILENCE_DEPRECATION -stdlib=libc++ -pthread -ftls-model=initial-exec -std=c++11  -g -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "G4INTY_USE_QT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4INTY_USE_XT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "G4LIB_BUILD_DLL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4UI_USE_QT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4UI_USE_TCSH"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4UI_USE_XM"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OI"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OIQT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGLQT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGLX"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGLXM"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_QT3D"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_RAYTRACERX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PTL_USE_TBB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_3DCORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_3DEXTRAS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_3DINPUT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_3DLOGIC_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_3DRENDER_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GAMEPAD_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/usr/local/lib/CLHEP-2.4.4.0/../../include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/sehoon/Programming/Geant4/geant4.source/examples/basic/B4/B4d/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/local/include/Geant4"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/X11/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/./mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtWidgets.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtOpenGL.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtOpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtPrintSupport.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtPrintSupport.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DCore.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DCore.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DExtras.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DExtras.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DRender.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DRender.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DInput.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DInput.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtGamepad.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/QtGamepad.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DLogic.framework"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/opt/qt/lib/Qt3DLogic.framework/Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3,
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "exampleB4d::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -DGL_SILENCE_DEPRECATION -stdlib=libc++ -pthread -ftls-model=initial-exec -std=c++11  -g -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4Tree.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4FR.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4GMocren.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4visHepRep.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4RayTracer.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4VRML.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4OpenGL.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4visQt3D.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4OpenInventor.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4vis_management.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4modeling.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4interfaces.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4persistency.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4error_propagation.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4readout.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4physicslists.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4tasking.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4parmodels.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/Qt3DExtras.framework/Qt3DExtras",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/Qt3DInput.framework/Qt3DInput",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtGamepad.framework/QtGamepad",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/Qt3DLogic.framework/Qt3DLogic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/Qt3DRender.framework/Qt3DRender",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/Qt3DCore.framework/Qt3DCore",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtNetwork.framework/QtNetwork",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4gl2ps.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libGL.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libXmu.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libXext.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libXm.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libXt.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libICE.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libSM.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/X11/lib/libX11.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtPrintSupport.framework/QtPrintSupport",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libSoQt.20.6.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtOpenGL.framework/QtOpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtWidgets.framework/QtWidgets",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtGui.framework/QtGui",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libCoin.4.0.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/opt/qt/lib/QtCore.framework/QtCore",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libxerces-c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4run.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4event.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4tracking.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4processes.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4analysis.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libexpat.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4digits_hits.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4track.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4particles.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4geometry.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4materials.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4graphics_reps.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4intercoms.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libG4global.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libG4ptl.0.0.2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libtbb.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libCLHEP-2.4.4.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "exampleB4d",
+	"nameOnDisk" : "exampleB4d",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "exampleB4d.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/B4PrimaryGeneratorAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/B4RunAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/B4dActionInitialization.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/B4dDetectorConstruction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/B4dEventAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4Analysis.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4PrimaryGeneratorAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4RunAction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4dActionInitialization.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4dDetectorConstruction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/B4dEventAction.hh",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
